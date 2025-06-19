@@ -4,7 +4,7 @@ import sys
 from bank_account import BankAccount
 
 def main():
-    account = BankAccount(100)  # Initial balance set to 100
+    account = BankAccount(100)  # Starting with a default balance of $100
 
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <command>:<amount>")
